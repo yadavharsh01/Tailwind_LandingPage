@@ -1,9 +1,17 @@
+import Header from "./Components/Header"
+import Body from "./Components/Body"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
     <>
-      <div className="text-red-600 p-20 ">Hey There </div>
-      </>
+      <div className="bg-amber-50 min-h-screen px-6 py-3 flex flex-col gap-16 md:px-10 md:py-7 md:justify-between lg:px-16">
+      <Header/>
+
+      <Body/>
+      <Footer/>
+      </div>
+    </>
   )
 }
 
